@@ -1,4 +1,4 @@
-# Ćwiczenia z programowania w języku Python
+# Ćwiczenia z grafów i sieci w języku Python
 
 * Krzysztof Molenda
 
