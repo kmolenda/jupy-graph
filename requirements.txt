@@ -50,5 +50,4 @@ jupyterlab-open-url-parameter
 # https://github.com/jupyter-book/jupyterlab-myst
 jupyterlab-myst
 
-jupyterlab-cytoscape
 
