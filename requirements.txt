@@ -8,13 +8,13 @@ notebook~=7.3.2
 jupyterlite-pyodide-kernel==0.5.0
 
 # JavaScript kernel (optional)
-#jupyterlite-javascript-kernel==0.3.0
+jupyterlite-javascript-kernel==0.3.0
 
 # Language support (optional)
 jupyterlab-language-pack-pl-PL
 
 # P5 kernel (optional)
-#jupyterlite-p5-kernel==0.1.0
+jupyterlite-p5-kernel==0.1.0
 
 # JupyterLab: Fasta file renderer (optional)
 jupyterlab-fasta>=3.3.0,<4
