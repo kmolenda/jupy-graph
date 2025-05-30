@@ -1,0 +1,120 @@
+{
+  "program_name": "Computer Science",
+  "degree": "Bachelor of Engineering",
+  "duration_years": 3.5,
+  "semesters": 7,
+  "courses": [
+    {
+      "id": "CS101",
+      "name": "Wstęp do programowania",
+      "semester": 1,
+      "credits": 6,
+      "prerequisites": []
+    },
+    {
+      "id": "CS102",
+      "name": "Matematyka dyskretna",
+      "semester": 1,
+      "credits": 6,
+      "prerequisites": []
+    },
+    {
+      "id": "CS103",
+      "name": "Architektura komputerów",
+      "semester": 2,
+      "credits": 6,
+      "prerequisites": ["CS101"]
+    },
+    {
+      "id": "CS104",
+      "name": "Algorytmy i struktury danych",
+      "semester": 2,
+      "credits": 6,
+      "prerequisites": ["CS101", "CS102"]
+    },
+    {
+      "id": "CS105",
+      "name": "Bazy danych",
+      "semester": 3,
+      "credits": 6,
+      "prerequisites": ["CS104"]
+    },
+    {
+      "id": "CS106",
+      "name": "Systemy operacyjne",
+      "semester": 3,
+      "credits": 6,
+      "prerequisites": ["CS103", "CS104"]
+    },
+    {
+      "id": "CS107",
+      "name": "Sieci komputerowe",
+      "semester": 4,
+      "credits": 6,
+      "prerequisites": ["CS106"]
+    },
+    {
+      "id": "CS108",
+      "name": "Inżynieria oprogramowania",
+      "semester": 4,
+      "credits": 6,
+      "prerequisites": ["CS105", "CS106"]
+    },
+    {
+      "id": "CS201",
+      "name": "Bezpieczeństwo systemów informatycznych",
+      "semester": 5,
+      "credits": 6,
+      "prerequisites": ["CS107"]
+    },
+    {
+      "id": "CS202",
+      "name": "Sztuczna inteligencja",
+      "semester": 5,
+      "credits": 6,
+      "prerequisites": ["CS108"]
+    },
+    {
+      "id": "CS203",
+      "name": "Systemy rozproszone",
+      "semester": 6,
+      "credits": 6,
+      "prerequisites": ["CS108"]
+    },
+    {
+      "id": "CS204",
+      "name": "Przetwarzanie danych i analiza",
+      "semester": 6,
+      "credits": 6,
+      "prerequisites": ["CS105"]
+    },
+    {
+      "id": "CS301",
+      "name": "Praca dyplomowa",
+      "semester": 7,
+      "credits": 12,
+      "prerequisites": ["CS201", "CS203", "CS204"]
+    },
+    {
+      "id": "CS302",
+      "name": "Projekt zespołowy",
+      "semester": 7,
+      "credits": 6,
+      "prerequisites": ["CS108"]
+    },
+    {
+      "id": "EL101",
+      "name": "Język angielski techniczny",
+      "semester": 1,
+      "credits": 2,
+      "prerequisites": []
+    },
+    {
+      "id": "EL102",
+      "name": "Wychowanie fizyczne",
+      "semester": 1,
+      "credits": 1,
+      "prerequisites": []
+    }
+  ]
+}

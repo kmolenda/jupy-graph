@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": "T1",
+      "duration": 5,
+      "resources": ["M1"],
+      "dependencies": []
+    },
+    {
+      "id": "T2",
+      "duration": 3,
+      "resources": ["M2"],
+      "dependencies": ["T1"]
+    },
+    {
+      "id": "T3",
+      "duration": 2,
+      "resources": ["M1", "M3"],
+      "dependencies": ["T1"]
+    },
+    {
+      "id": "T4",
+      "duration": 4,
+      "resources": ["M2"],
+      "dependencies": ["T2"]
+    },
+    {
+      "id": "T5",
+      "duration": 6,
+      "resources": ["M3"],
+      "dependencies": ["T3"]
+    },
+    {
+      "id": "T6",
+      "duration": 3,
+      "resources": ["M1", "M2"],
+      "dependencies": ["T4", "T5"]
+    },
+    {
+      "id": "T7",
+      "duration": 5,
+      "resources": ["M3"],
+      "dependencies": ["T6"]
+    },
+    {
+      "id": "T8",
+      "duration": 4,
+      "resources": ["M1"],
+      "dependencies": ["T7"]
+    },
+    {
+      "id": "T9",
+      "duration": 2,
+      "resources": ["M2"],
+      "dependencies": ["T8"]
+    },
+    {
+      "id": "T10",
+      "duration": 3,
+      "resources": ["M3"],
+      "dependencies": ["T9"]
+    }
+  ]
+}

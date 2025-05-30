@@ -1,0 +1,29 @@
+{
+  "courses": [
+    {
+      "id": "CS101",
+      "name": "Wstęp do Informatyki",
+      "prerequisites": []
+    },
+    {
+      "id": "CS102",
+      "name": "Algorytmy i struktury danych",
+      "prerequisites": ["CS101"]
+    },
+    {
+      "id": "CS201",
+      "name": "Bazy danych",
+      "prerequisites": ["CS101"]
+    },
+    {
+      "id": "CS301",
+      "name": "Zaawansowane algorytmy",
+      "prerequisites": ["CS102"]
+    },
+    {
+      "id": "CS302",
+      "name": "Systemy operacyjne",
+      "prerequisites": ["CS102", "CS201"]
+    }
+  ]
+}
